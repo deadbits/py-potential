@@ -41,11 +41,11 @@ def my_func(arg):
      - verify string is acceptable for filenames and HTML display    
      - verify URL    
      - verify IPv4 address
-     - validate Yara rule syntax
+     - validate Yara rule syntax **not yet implemented**
 - Time   
     - UTC timestamp as string    
     - UTC timestamp as object    
-    - get duration of a thing you run
+    - get duration of a thing you run **not yet implemented**
 - Encode    
     - XOR        
         - single byte        
@@ -54,11 +54,11 @@ def my_func(arg):
     - RC4 encrypt & decrypt    
     - base64 encode    
     - base64 decode    
-    - get digest of HMA SHA256 from data and key    
-    - base64 encode and zlib compress data    
-    - base64 decode and zlib decompress data    
-    - convert hex to integer    
-    - convert integer to hex
+    - get digest of HMA SHA256 from data and key  **not yet implemented**
+    - base64 encode and zlib compress data    **not yet implemented**
+    - base64 decode and zlib decompress data    **not yet implemented**
+    - convert hex to integer    **not yet implemented**
+    - convert integer to hex **not yet implemented**
 - Files    
     - get entropy of file or buffer    
     - check if file is valid (path exists, is not a directory, and size is greater than 0)    
@@ -68,11 +68,11 @@ def my_func(arg):
     - get size of file    
     - get basename of file path    
     - get Magic MIME type from file path or buffer    
-    - run Yara {directory|file} signature against {file|buffer}    
-    - create temporary directory    
-    - create temporary file    
-    - write a JSON object or instance of object to file as dictionary
-- Network  
+    - run Yara {directory|file} signature against {file|buffer}  **not yet implemented**
+    - create temporary directory   **not yet implemented** 
+    - create temporary file    **not yet implemented**
+    - write a JSON object or instance of object to file as dictionary **not yet implemented**
+- Network  **not yet implemented**
     - make DNS request and get all response data  
     - open a listening TCP socket on port {whatever}  
     - connect to a listening TCP socket  
